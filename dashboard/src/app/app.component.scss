@@ -1,0 +1,32 @@
+@import '../assets/scss/variable';
+
+.title_wrapper{
+    padding: 10px 30px;
+    background-color: #26334f;
+    box-shadow: 0px 0px 3px #ddd;
+    position: fixed;
+    width: 100%;
+    top: 0;
+
+    h1{
+        color: #fff;
+        font-size: $font_20;
+    }
+}
+
+.component_wrapper {
+    padding-top: 60px;
+    .wrapper{
+        display: flex;
+        .history_component{
+            width: 30%;
+        }
+        .map_component{
+            width: 40%;
+        }
+        .charts_component{
+            width: 30%;
+        }
+    }
+
+}
